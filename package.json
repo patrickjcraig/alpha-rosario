@@ -1,0 +1,19 @@
+{
+  "name": "call-e-build",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A server-side CALL-E quickstart project.",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@call-e/calle": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "tsx": "latest",
+    "typescript": "latest"
+  }
+}
